@@ -3,6 +3,7 @@
 globaltest
 # Log file
 *.log
+.mvn
 
 # BlueJ files
 *.ctxt
