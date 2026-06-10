@@ -33,3 +33,6 @@ replay_pid*
 
 # Local GPG export
 gpg-private-key.asc
+
+# Local secret values
+.secret

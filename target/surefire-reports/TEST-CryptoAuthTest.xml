@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CryptoAuthTest" time="0.137" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CryptoAuthTest" time="0.101" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="26"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk-26.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\tanbin\AppData\Local\Temp\surefire8886138287390679592\surefirebooter-20260610192641724_3.jar C:\Users\tanbin\AppData\Local\Temp\surefire8886138287390679592 2026-06-10T19-26-41_574-jvmRun1 surefire-20260610192641724_1tmp surefire_0-20260610192641724_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\tanbin\AppData\Local\Temp\surefire9003336897856458383\surefirebooter-20260610193224356_3.jar C:\Users\tanbin\AppData\Local\Temp\surefire9003336897856458383 2026-06-10T19-32-24_253-jvmRun1 surefire-20260610193224356_1tmp surefire_0-20260610193224356_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\Codes\crypto_auth\target\test-classes;E:\Codes\crypto_auth\target\classes;C:\Users\tanbin\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.3\junit-jupiter-5.10.3.jar;C:\Users\tanbin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\tanbin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\tanbin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\tanbin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tanbin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\tanbin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\tanbin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\tanbin\AppData\Local\Temp\surefire8886138287390679592\surefirebooter-20260610192641724_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\tanbin\AppData\Local\Temp\surefire9003336897856458383\surefirebooter-20260610193224356_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="26.0.1+8-34"/>
@@ -50,7 +50,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="D:\Program Files\Java\jdk-26.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;c:\Users\tanbin\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\tanbin\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Google\Chrome\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python314\Scripts\;C:\Python314\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;E:\Android\flutter\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\tanbin\.local\bin;C:\Users\tanbin\AppData\Local\pnpm;C:\Users\tanbin\AppData\Local\Microsoft\WindowsApps;C:\Users\tanbin\go\bin;C:\Users\tanbin\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\tanbin\AppData\Local\GitHubDesktop\bin;C:\Users\tanbin\AppData\Roaming\npm;C:\Users\tanbin\go\bin;C:\Users\tanbin\AppData\Local\PowerToys\DSCModules\;D:\Oracle\instantclient_23_0;C:\Users\tanbin\AppData\Local\Programs\Ollama;C:\Users\tanbin\.bun\bin;C:\Users\tanbin\AppData\Local\Programs\Antigravity IDE\bin;c:\Users\tanbin\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk-26.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;c:\Users\tanbin\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\tanbin\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Google\Chrome\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python314\Scripts\;C:\Python314\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;E:\Android\flutter\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\tanbin\.local\bin;C:\Users\tanbin\AppData\Local\pnpm;C:\Users\tanbin\AppData\Local\Microsoft\WindowsApps;C:\Users\tanbin\go\bin;C:\Users\tanbin\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\tanbin\AppData\Local\GitHubDesktop\bin;C:\Users\tanbin\AppData\Roaming\npm;C:\Users\tanbin\go\bin;C:\Users\tanbin\AppData\Local\PowerToys\DSCModules\;D:\Oracle\instantclient_23_0;C:\Users\tanbin\AppData\Local\Programs\Ollama;C:\Users\tanbin\.bun\bin;C:\Users\tanbin\AppData\Local\Programs\Antigravity IDE\bin;c:\Users\tanbin\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -59,5 +59,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="70.0"/>
   </properties>
-  <testcase name="encryptDecryptFlow" classname="CryptoAuthTest" time="0.089"/>
+  <testcase name="encryptDecryptFlow" classname="CryptoAuthTest" time="0.064"/>
 </testsuite>
