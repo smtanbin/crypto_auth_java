@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"<Unnamed>","l":"CryptoAuth"},{"p":"<Unnamed>","l":"CryptoAuth.TokenResult"},{"p":"<Unnamed>","l":"CryptoAuth.VerifiedToken"}];updateSearchResults();

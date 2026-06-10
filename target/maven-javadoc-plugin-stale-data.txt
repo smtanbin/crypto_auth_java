@@ -1,0 +1,49 @@
+@options
+@argfile
+-encoding
+'UTF-8'
+-protected
+--release
+11
+-sourcepath
+'E:/Codes/crypto_auth/src/main/java;E:/Codes/crypto_auth/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'E:/Codes/crypto_auth/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'crypto-auth 1.0.0 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'E:/Codes/crypto_auth/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'crypto-auth 1.0.0 API'
+'E:/Codes/crypto_auth/src/main/java/CryptoAuth.java'
+E:\Codes\crypto_auth\src\main\java\CryptoAuth.java = 1781095200444
+E:\Codes\crypto_auth\src\main\java = 1781095435795
+E:\Codes\crypto_auth\target\generated-sources\annotations = 1781097890322
+E:\Codes\crypto_auth\target\apidocs\allclasses-index.html = 1781097894278
+E:\Codes\crypto_auth\target\apidocs\allpackages-index.html = 1781097894281
+E:\Codes\crypto_auth\target\apidocs\CryptoAuth.html = 1781097894207
+E:\Codes\crypto_auth\target\apidocs\CryptoAuth.TokenResult.html = 1781097894221
+E:\Codes\crypto_auth\target\apidocs\CryptoAuth.VerifiedToken.html = 1781097894231
+E:\Codes\crypto_auth\target\apidocs\element-list = 1781097894233
+E:\Codes\crypto_auth\target\apidocs\help-doc.html = 1781097894305
+E:\Codes\crypto_auth\target\apidocs\index-all.html = 1781097894294
+E:\Codes\crypto_auth\target\apidocs\index.html = 1781097894298
+E:\Codes\crypto_auth\target\apidocs\member-search-index.js = 1781097894285
+E:\Codes\crypto_auth\target\apidocs\module-search-index.js = 1781097894282
+E:\Codes\crypto_auth\target\apidocs\overview-tree.html = 1781097894266
+E:\Codes\crypto_auth\target\apidocs\package-search-index.js = 1781097894283
+E:\Codes\crypto_auth\target\apidocs\package-summary.html = 1781097894240
+E:\Codes\crypto_auth\target\apidocs\package-tree.html = 1781097894245
+E:\Codes\crypto_auth\target\apidocs\package-use.html = 1781097894264
+E:\Codes\crypto_auth\target\apidocs\search.html = 1781097894297
+E:\Codes\crypto_auth\target\apidocs\tag-search-index.js = 1781097894286
+E:\Codes\crypto_auth\target\apidocs\type-search-index.js = 1781097894284
