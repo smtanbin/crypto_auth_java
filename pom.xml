@@ -112,7 +112,6 @@
                         <version>${maven.gpg.plugin.version}</version>
                         <configuration>
                             <keyname>${env.GPG_KEY_ID}</keyname>
-                            <passphrase>${env.GPG_PASSPHRASE}</passphrase>
                             <gpgArguments>
                                 <arg>--pinentry-mode</arg>
                                 <arg>loopback</arg>

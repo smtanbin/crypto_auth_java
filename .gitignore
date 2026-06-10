@@ -25,3 +25,6 @@ replay_pid*
 
 # Local Maven credentials
 .mvn/settings.xml
+
+# Local GPG export
+gpg-private-key.asc

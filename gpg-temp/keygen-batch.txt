@@ -1,0 +1,10 @@
+Key-Type: RSA
+Key-Length: 4096
+Subkey-Type: RSA
+Subkey-Length: 4096
+Name-Real: Maven Publish
+Name-Comment: GitHub Actions publish key
+Name-Email: publish@crypto_auth.local
+Expire-Date: 0
+%no-protection
+%commit

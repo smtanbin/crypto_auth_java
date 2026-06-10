@@ -1,0 +1,37 @@
+This is a revocation certificate for the OpenPGP key:
+
+pub   rsa4096 2026-06-10 [SCEAR]
+      03D721A5371D3A65F63DE0FAD97B8D8DF5CDC5CC
+uid          Maven Publish (GitHub Actions publish key) <publish@crypto_auth.local>
+
+A revocation certificate is a kind of "kill switch" to publicly
+declare that a key shall not anymore be used.  It is not possible
+to retract such a revocation certificate once it has been published.
+
+Use it to revoke this key in case of a compromise or loss of
+the secret key.  However, if the secret key is still accessible,
+it is better to generate a new revocation certificate and give
+a reason for the revocation.  For details see the description of
+of the gpg command "--generate-revocation" in the GnuPG manual.
+
+To avoid an accidental use of this file, a colon has been inserted
+before the 5 dashes below.  Remove this colon with a text editor
+before importing and publishing this revocation certificate.
+
+:-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: This is a revocation certificate
+
+iQI2BCABCgAgFiEEA9chpTcdOmX2PeD62XuNjfXNxcwFAmopY2MCHQAACgkQ2XuN
+jfXNxcxVRA/+K0deED4yH70bnTJyPkzYKm8PEFH/4K/79ROeAnhqeKuMQC2enP4Z
+18T1T0jAhgtg9eD7p0JG17RQIHqZooP+aPsf0rV2XdZR2T8OJ1sSUFH97avmEFh+
+1RXxusMo4U9ym1JM1YoOZUGVSvXVgi0uR4AXcbcQbFp7kLjdVqfpW4bp1yHXHOCL
+qHW8bD436aIVmCROxKzklbpcExox0IXTqjLUqQ9rORdCWJLXNZfyEXiBik3aH2u5
+5C37pP1wGGyydDJ0PxtfR+LBtLy3ZUOqOjjREzgG544of/GgRCmHnx8uMciDbCCd
+iGN1tiwHYiPDH8KZksERf5IsjV0hx9j13+OlBqHLbxIVn7XvkMi8JKTLyHYDr7ru
+f9TYgsnb2jDc+9Agr20beAx35m76g04oEzHItToOlZKZhF5+HRE0DSFSXpgnfTQI
+Zb1jrO7NQemdGkb4+RUMCCOM2sGzzt8penl6dcTKfEwxS/vfIsWwbplKmiZHLS+l
+lqoJ6VuhFd6eTGrAGmvczRS/PSAh0hFRZTy34/+RPwjUI+LN5z4Q52TyyXKVHxun
+SY18BwQ+6F/N74sJkyXJRlKydTXoE1a/fMCM/FUOYe6WH8otNQrgb6RQmTSj10qq
+iqszbAAgV226j6Cezm769g8wsNStlZ27O8jUC16Te6b+Kuo4xrbpn4c=
+=247+
+-----END PGP PUBLIC KEY BLOCK-----
