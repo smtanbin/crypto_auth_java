@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.tanbin</groupId>
+    <groupId>io.github.smtanbin</groupId>
     <artifactId>crypto-auth</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
@@ -29,9 +29,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/tanbin/crypto_auth.git</connection>
-        <developerConnection>scm:git:ssh://github.com/tanbin/crypto_auth.git</developerConnection>
-        <url>https://github.com/tanbin/crypto_auth</url>
+        <connection>scm:git:git://github.com/smtanbin/crypto_auth_java.git</connection>
+        <developerConnection>scm:git:ssh://github.com/smtanbin/crypto_auth_java.git</developerConnection>
+        <url>https://github.com/smtanbin/crypto_auth_java</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -110,6 +110,14 @@
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
                         <version>${maven.gpg.plugin.version}</version>
+                        <configuration>
+                            <keyname>${env.GPG_KEY_ID}</keyname>
+                            <passphrase>${env.GPG_PASSPHRASE}</passphrase>
+                            <gpgArguments>
+                                <arg>--pinentry-mode</arg>
+                                <arg>loopback</arg>
+                            </gpgArguments>
+                        </configuration>
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>
