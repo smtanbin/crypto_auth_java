@@ -3,8 +3,12 @@
 globaltest
 # Log file
 *.log
+target
 .mvn
-
+gpg-temp
+apache-maven-3.9.9
+apache-maven-3.9.9-bin.zip
+gpg-private-key.asc
 # BlueJ files
 *.ctxt
 
